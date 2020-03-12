@@ -14,8 +14,8 @@ api = tweepy.API(auth)
 
 val = input('Search term: ')
 count = 100
-result_type = 'recent'
-until = '2020-03-10'
+result_type = 'popular'
+until = '2020-03-01'
 lang = 'en'
 
 public_tweets = api.search(q = val, count = count, result_type = result_type, until = until)
