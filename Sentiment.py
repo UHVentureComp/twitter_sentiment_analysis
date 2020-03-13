@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 val = input('Search term: ')
 count = 100
 result_type = 'mixed'
-until = '2020-03-01'
+until = '2020-03-05'
 
 public_tweets = api.search(q = val, count = count, result_type = result_type, until = until)
 
