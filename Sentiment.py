@@ -26,9 +26,11 @@ count = 100
 result_type = 'recent'
 #Change to whatever date you want algo to start pulling data from
 until = '2020-03-13'
+#Lanuage Filter: uses ISO 639-1 lanuage names
+lang = 'en'
 
 #API Call
-public_tweets = api.search(q = val, count = count, result_type = result_type, until = until)
+public_tweets = api.search(q = val, count = count, result_type = result_type, until = until, lang = lang)
 
 #Values for analysis
 positive_count = 0
