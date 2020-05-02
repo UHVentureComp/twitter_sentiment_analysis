@@ -14,8 +14,8 @@ class SentimentAnalysis:
 
     def call_api(self):
         #Standard Twitter API Keys
-        consumer_key = "OTKkOwGPqIJBpbF5hKMHjs3Lc"
-        consumer_key_secret = "z0Qiop3xjEFqoL6J3zc4JIMBjX569AlNL9hNKU8r7TvDtvNK2I"
+        consumer_key = "urnVbaVTbP7OGGJ3ARndY524s"
+        consumer_key_secret = "tH23vLfqqLqoCdgSJV7halkrsNwyByUCvjUWzGSZ8Ft6bw5T2L"
         access_token = "1236369835384168448-SDUwduQgJHw6QlecVOOrghyNON2ivR"
         access_token_secret = "NiJxYi1d9ZCx99C1NRVrniUgMhuGoRUew7RDf9thhC2xg"
 
