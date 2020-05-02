@@ -47,9 +47,9 @@ class SentimentAnalysis:
         #Print statements to console
         total_count = positive_count + negative_count
         if positive_count > negative_count:
-            print("Sentiment towards %s is positive: %d positive tweets, %d negative tweets" % (val, positive_count, negative_count))
+            print("Sentiment towards %s is positive: %d positive tweets, %d negative tweets" % (self.search, positive_count, negative_count))
         elif positive_count < negative_count:
-            print("Sentiment towards %s is negative: %d positive tweets, %d negative tweets" % (val, positive_count, negative_count))
+            print("Sentiment towards %s is negative: %d positive tweets, %d negative tweets" % (self.search, positive_count, negative_count))
         else:
             print("Sentiment towards %s is indifferent" % (val))
 
