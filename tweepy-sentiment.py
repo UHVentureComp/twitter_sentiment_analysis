@@ -14,11 +14,11 @@ class SentimentAnalysis:
     def call_api(self):
         # Enter your Twitter API keys here
         # Consumer API keys:
-        consumer_key = "sTHGIyqNhYPyDTxr4UlBf77Vk"
-        consumer_key_secret = "cN1NQTLA69Y8khRSX90FKCYJLcv6SdRCwDrN0SAynMeEAvSfMF"
+        consumer_key = "___"
+        consumer_key_secret = "___"
         # Access token & access token secret
-        access_token = "1236369835384168448-nRxodOp86kDjkU29Vlh9rj3ESMKE3j"
-        access_token_secret = "ATbfpnRpxjYLQWclOqsRfHPIXzYRjs0ZPKwRcmcQp3Juk"
+        access_token = "___"
+        access_token_secret = "___"
 
         # Tweepy library connects to Twitter API authentification
         auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret)
