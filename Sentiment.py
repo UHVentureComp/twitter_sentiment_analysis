@@ -25,7 +25,7 @@ count = 100
 ###'mixed':Include both popular and real time results in the response.
 result_type = 'recent'
 #Change to whatever date you want algo to start pulling data from
-until = '2020-03-13'
+until = '2020-05-01'
 #Lanuage Filter: uses ISO 639-1 lanuage names
 lang = 'en'
 
