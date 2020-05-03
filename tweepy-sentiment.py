@@ -14,10 +14,10 @@ class SentimentAnalysis:
 
     def call_api(self):
         #Standard Twitter API Keys
-        consumer_key = "urnVbaVTbP7OGGJ3ARndY524s"
-        consumer_key_secret = "tH23vLfqqLqoCdgSJV7halkrsNwyByUCvjUWzGSZ8Ft6bw5T2L"
-        access_token = "1236369835384168448-SDUwduQgJHw6QlecVOOrghyNON2ivR"
-        access_token_secret = "NiJxYi1d9ZCx99C1NRVrniUgMhuGoRUew7RDf9thhC2xg"
+        consumer_key = "sTHGIyqNhYPyDTxr4UlBf77Vk"
+        consumer_key_secret = "cN1NQTLA69Y8khRSX90FKCYJLcv6SdRCwDrN0SAynMeEAvSfMF"
+        access_token = "1236369835384168448-nRxodOp86kDjkU29Vlh9rj3ESMKE3j"
+        access_token_secret = "ATbfpnRpxjYLQWclOqsRfHPIXzYRjs0ZPKwRcmcQp3Juk"
 
         #Tweepy library connects to Twitter API authentification
         auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret)
