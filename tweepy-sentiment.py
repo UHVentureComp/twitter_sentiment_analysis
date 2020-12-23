@@ -20,7 +20,7 @@ class SentimentAnalysis:
         access_token = "___"
         access_token_secret = "___"
 
-        # Tweepy library connects to Twitter API authentification
+        # Tweepy library connects to Twitter API authentication
         auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret)
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth)
